@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = 'EyesOnCloud'
+        DOCKERHUB_USERNAME = 'eyesoncloud'
         IMAGE_NAME         = 'jenkins-demo-app'
         IMAGE_FULL_NAME    = "${DOCKERHUB_USERNAME}/${IMAGE_NAME}"
         IMAGE_TAG          = "${BUILD_NUMBER}"
